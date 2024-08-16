@@ -8,7 +8,7 @@ from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_percenta
 import pickle
 
 # Load the trained model
-model_path = "D:\App_predictions\model_prediksi_gula2.pkl"
+model_path = "model_prediksi_gula2.pkl"
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
